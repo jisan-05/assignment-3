@@ -45,7 +45,9 @@
   </head>
   <body class="font-manrope">
     <!-- Header section  -->
-    <header class="container mx-auto px-4 sm:px-5 md:px-8 lg:px-10 mt-2 lg:mt-4">
+    <header
+      class="container mx-auto px-4 sm:px-5 md:px-8 lg:px-10 mt-2 lg:mt-4"
+    >
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -211,7 +213,7 @@
             </div>
           </div>
           <!-- image part  -->
-          <div class=" ">
+          <div class="2xl:p-12 ">
             <img src="./assets/Rectangle.png" alt="" class="w-full" />
           </div>
         </div>
@@ -295,7 +297,8 @@
         </div>
 
         <!-- our latest grid  -->
-        <div class="grid grid-cols-1 lg:grid-cols-10 gap-3 mt-8 order-1">
+        <div class="grid grid-cols-1 lg:grid-cols-10 gap-3 mt-8">
+          <!-- grid - 1 -->
           <div
             class="p-6 rounded-lg border border-gray-300 lg:col-span-7 lg:grid lg:grid-cols-3 items-center gap-6"
           >
@@ -317,30 +320,34 @@
               </div>
             </div>
           </div>
-          <div class="p-6 border border-gray-300 lg:col-span-3 rounded-xl items-center content-center order-2">
+          <!-- grid -2  -->
+          <div
+            class="p-6 border border-gray-300 lg:col-span-3 rounded-xl items-center content-center"
+          >
             <img src="./assets/img2.png" alt="" class="w-full" />
           </div>
         </div>
 
-        <!-- grid line - 2 -->
-        <div
-          class="grid grid-cols-1 lg:grid-cols-10 gap-3 mt-6 items-center order-5 md:order-3"
-        >
-          <div class="p-6 border border-gray-300 rounded-xl lg:col-span-2">
+        <!-- grid 3 -->
+        <div class="grid grid-cols-1 lg:grid-cols-10 gap-3 mt-6 items-center ">
+          <div
+            class="p-6 border border-gray-300 rounded-xl lg:col-span-2 order-3 lg:order-1 "
+          >
             <img src="./assets/img3.png" alt="" class="w-full" />
           </div>
 
-          <!-- grid 2 -->
+          <!-- grid 4 -->
           <div
-            class=" p-4 2xl:p-6 rounded-lg border border-gray-300 lg:col-span-6 lg:grid lg:grid-cols-5 lg:gap-7 items-center order-4"
+            class="p-4 2xl:p-6 rounded-lg border border-gray-300 lg:col-span-6 lg:grid lg:grid-cols-5 lg:gap-7 items-center order-2 "
           >
-            <div class="lg:col-span-2">
-              <img src="./assets/img4.png" alt="" class="w-11/12 " />
+            <div class="lg:col-span-2 ">
+              <img src="./assets/img4.png" alt="" class="w-full h-full" />
             </div>
             <div class="lg:col-span-3">
               <h4 class="text-2xl font-bold mb-4">Commercial</h4>
               <p class="mb-4">
-                The barn house captivates with its blend of rustic charm and modern. 
+                The barn house captivates with its blend of rustic charm and
+                modern.
               </p>
               <div class="flex items-center gap-2">
                 <a href="" class="font-bold text-xl">View Details</a>
@@ -350,12 +357,17 @@
               </div>
             </div>
           </div>
-
-          <div class="p-6 border border-gray-300 rounded-xl order-3 items-center md:order-5 lg:col-span-2">
+          <!-- grid - 5  -->
+          <div
+            class="p-6 border border-gray-300 rounded-xl items-center lg:col-span-2 order-1 lg:order-3 "
+          >
             <img src="./assets/img5.png" alt="" class="w-full" />
           </div>
         </div>
-        <div class="p-6 border border-gray-300 rounded-xl items-center mt-4 lg:hidden">
+        <!-- grid - 6  -->
+        <div
+          class="p-6 border border-gray-300 rounded-xl items-center mt-4 lg:hidden"
+        >
           <img src="./assets/img5.png" alt="" class="w-full" />
         </div>
       </section>
@@ -466,12 +478,12 @@
             class="input w-full rounded-3xl mt-5 lg:mt-6"
           />
           <input
-            type="text"
+            type="number"
             placeholder="Phone Number*"
             class="input w-full rounded-3xl mt-5 lg:mt-6"
           />
           <input
-            type="text"
+            type="email"
             placeholder="Email Number*"
             class="input w-full rounded-3xl mt-5 lg:mt-6"
           />
